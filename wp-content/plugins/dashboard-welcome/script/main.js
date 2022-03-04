@@ -36,8 +36,17 @@ jQuery(document).ready(function ($) {
 	 * remove feedback message on keypress
 	 */
 
-	$('#wd_feedback').on('keypress', function(){
+	$('#wd_feedback').on('keypress', function (e) {
 		let reappear = document.querySelector('.reappear');
 		reappear.classList.remove('display_on');
+
+		//when enter is pressed
+
+		if (e.which == 13){
+			$('#wd_feedback_btn').click();
+		}
 	})
+
+	/** submit form when enter is pressed */
+
 });
