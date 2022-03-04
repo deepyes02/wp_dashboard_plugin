@@ -1,0 +1,11 @@
+*.php
+!README.md
+wp-includes
+wp-admin
+
+!wp-content/plugins/dashboard-welcome
+
+wp-content/themes
+wp-content/upgrade
+wp-content/uploads
+wp-content/*.*

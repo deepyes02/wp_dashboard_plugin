@@ -1,0 +1,35 @@
+#dashboard_panel * {
+	color: #5d3d89;
+	letter-spacing: 0.3px;
+	line-height: 1.4;
+	font-family: monospace;
+}
+#dashboard_panel p {
+	font-size: 1rem;
+}
+#dashboard_panel {
+	color: white;
+	line-height: 2;
+	display: block;
+	background-color: #c6cbdd;
+	min-height: fit-content;
+	margin: 50px 20px;
+}
+
+#dashboard_panel .container {
+	display: block !important;
+	max-width: 98%;
+	padding: 15px;
+}
+
+#dashboard_panel > * {
+	text-shadow: 1px 1px 1px 4px black;
+}
+
+#dashboard_panel h3 {
+	font-size: 24px;
+}
+
+#dashboard_panel a:hover {
+	color: blue;
+}
