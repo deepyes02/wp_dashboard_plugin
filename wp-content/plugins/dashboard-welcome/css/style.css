@@ -1,3 +1,10 @@
+/* balloon welcome panel */
+.welcome-panel::before{
+	opacity: 0.78;
+	height:190px;
+	top:5%;
+	right:0%;
+}
 #dashboard_panel * {
 	color: #5d3d89;
 	letter-spacing: 0.3px;
